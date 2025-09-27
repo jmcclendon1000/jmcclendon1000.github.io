@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf8">
+
+    <title>SSF2 v0.9b</title>
+
+</head>
+
+<body>
+
+    <div id="ruffle-player"></div>
+
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+
+    <script>
+
+        window.RufflePlayer = window.RufflePlayer || {};
+        
+        window.RufflePlayer.config = {
+           
+           base: 'https://jmcclendon1000.github.io/'
+       
+       };
+        
+        window.addEventListener("load", (event) => {
+
+            const ruffle = window.RufflePlayer.newest();
+
+            const player = ruffle.createPlayer();
+
+            const container = document.getElementById("ruffle-player");
+            container.appendChild(player);
+
+            player.load("https://jmcclendon1000.github.io/SSF2Beta_v1_4_0_1.swf")
+        
+        });
+
+    </script>
+
+</body>
+
+</html>
