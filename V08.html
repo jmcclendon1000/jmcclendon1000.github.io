@@ -33,7 +33,7 @@ window.RufflePlayer.config = {
     "preloader": false,
 };
             document.addEventListener("DOMContentLoaded", function () {
-                let swf = 'https://jmcclendon1000.github.io/SSF2 v0.8b.swf';
+                let swf = 'SSF2 v0.8b.swf';
                 if (swf) {
                     let ruffle = window.RufflePlayer.newest();
                     let player = Object.assign(document.getElementById("container").appendChild(ruffle.createPlayer()), {
@@ -41,7 +41,7 @@ window.RufflePlayer.config = {
                     });
 
                     player.load({
-                        url: swf,
+                        url: '/' + swf,
                         parameters: ""
                     });
                 }
