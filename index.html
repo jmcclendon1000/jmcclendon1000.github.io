@@ -6,7 +6,7 @@
 
     <meta charset="utf8">
 
-    <title>SSF2 v0.9b</title>
+    <title>SSF2 v0.9a</title>
 
 </head>
 
@@ -22,8 +22,6 @@
         
         window.RufflePlayer.config = {
            
-           base: 'https://jmcclendon1000.github.io/',
-           
            maxExecutionDuration: 120
        
        };
@@ -35,9 +33,11 @@
             const player = ruffle.createPlayer();
 
             const container = document.getElementById("ruffle-player");
+            
             container.appendChild(player);
 
-            player.load("https://jmcclendon1000.github.io/SSF2 v0.9b.swf")
+            player.load("/SSF2 v0.9a.swf")
+       
         });
 
     </script>
