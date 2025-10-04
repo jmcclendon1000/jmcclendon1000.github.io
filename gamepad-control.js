@@ -5,10 +5,6 @@ window.RufflePlayer.config = {
     base: '/v0.9a/',
            
     maxExecutionDuration: 120,
-           
-    allowScriptAccess: true,
-           
-    showSwfDownload: true,
        
 };
         
