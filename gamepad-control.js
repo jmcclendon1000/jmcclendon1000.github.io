@@ -2,7 +2,7 @@ window.RufflePlayer = window.RufflePlayer || {};
         
 window.RufflePlayer.config = {
            
-    base: 'https://jmcclendon1000.github.io/',
+    base: '/v0.9a/',
            
     maxExecutionDuration: 120,
            
@@ -22,6 +22,6 @@ window.addEventListener("load", (event) => {
             
     container.appendChild(player);
 
-    player.load("https://jmcclendon1000.github.io/SSF2 v0.9b.swf")
+    player.load("/SSF2 v0.9a.swf")
         
 });
