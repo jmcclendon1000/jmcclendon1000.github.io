@@ -27,8 +27,8 @@
            base: "/v0.9a/",
            
            allowFullscreen: true,
-           
-           fullScreenAspectRatio: "landscape",
+        
+           allowScriptAccess: true,
            
            showSWFDownload: true,
            
@@ -61,7 +61,11 @@
             
             container.appendChild(player);
 
-            player.load("/SSF2 v0.9a.swf")
+            player.load("SSF2 v0.9a.swf")
+
+            player.style.width = "2160px";
+
+            player.style.height = "1620px";
        
         });
 
