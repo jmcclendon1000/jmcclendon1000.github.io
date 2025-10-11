@@ -1,6 +1,6 @@
 const loadGame = () => {
   let script = document.createElement("script");
-  script.src = "https://www.autistici.org/burnedprojects/NoiseUpdate/runner.js";
+  script.src = "https://jmcclendon1000.github.io/PT_Web/runner.js";
   script.async = true;
   document.head.appendChild(script);
 };
@@ -8,7 +8,7 @@ const loadGame = () => {
 // wait till SW is ready to handle fetch
 const loadSW = async () => {
   try {
-    await navigator.serviceWorker.register("https://www.autistici.org/burnedprojects/NoiseUpdate/sw.js");
+    await navigator.serviceWorker.register("https://jmcclendon1000.github.io/PT_Web/sw.js");
     await navigator.serviceWorker.ready;
 
     loadGame();
