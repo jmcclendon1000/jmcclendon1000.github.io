@@ -3,7 +3,7 @@ const GAME_VERSION = "1.0.0.0";
 
 const CACHE_NAME = JSON.stringify({"name": GAME_NAME, "version": GAME_VERSION});
 const CACHE_FILES = ["https://www.autistici.org/burnedprojects/NoiseUpdate/runner.data",
-"https://www.autistici.org/burnedprojects/NoiseUpdate/runner.js",
+"https://jmcclendon1000.github.io/PT_Web/runner.js",
 "https://www.autistici.org/burnedprojects/NoiseUpdate/runner.wasm",
 "https://www.autistici.org/burnedprojects/NoiseUpdate/audio-worklet.js",
 "https://www.autistici.org/burnedprojects/NoiseUpdate/game.unx"
